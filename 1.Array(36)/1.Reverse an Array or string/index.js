@@ -3,7 +3,10 @@
 // return arr.reverse();
 // }
 // let arr=[2,9,5,12];
-// console.log(reverseArray(arr))
+// console.log(reverseArray(arr));
+
+// Time:O(n)
+// Space:O(1)
 
 //2
 // function reverseArray(arr){
@@ -19,7 +22,9 @@
 //          return arr;
 //     }
 //     let arr=[2,9,5,12];
-//     console.log(reverseArray(arr))
+//     console.log(reverseArray(arr));
+// Time:O(n);
+//Space:O(1);
 
 //3
 // function reverseArray(arr){
@@ -35,7 +40,8 @@
 //     }
 //     let arr=[2,9,5,12];
 //     console.log(reverseArray(arr))
-
+//Time:O(n)
+//Space:O(1)
 //4
 function reverseArray(arr){
    
@@ -48,4 +54,6 @@ function reverseArray(arr){
     return arr;
 }
 let arr=[2,9,5,12];
-console.log(reverseArray(arr))
+console.log(reverseArray(arr));
+//time:O(n)
+//space:O(1)
