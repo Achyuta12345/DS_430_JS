@@ -1,4 +1,4 @@
-// using sort
+//1. using sort
 
 function minMax1(arr){
 let sortArr = arr.sort((a,b)=>a-b)
@@ -12,7 +12,7 @@ console.log(minMax1(a))
 // Auxilary Space: is O(1)
 
 
-//Naive
+//2.Naive
 
 function getMinMax(arr, n)
 {
@@ -49,7 +49,8 @@ function getMinMax(arr, n)
    
     // Time Complexity: O(n)
     // Auxiliary Space: O(1) 
-
+    
+//3
     function minMax(arr){
     
         let min=Infinity
